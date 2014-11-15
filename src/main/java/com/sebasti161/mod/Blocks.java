@@ -1,7 +1,6 @@
 package com.sebasti161.mod;
 
 import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -12,14 +11,9 @@ public class Blocks
     public static Block GreenBlock;
     public static Block BrownBlock;
     public static Block LightBlueBlock;
-	public static void init() {
-		initBlocks();
-	}
-    private static void initBlocks() {
-
-		
-	}
-	{
+    @EventHandler
+    public void preInit(FMLPreInitializationEvent event)
+    {
     	RedBlock = new BlockRedBlock();
     	GreenBlock = new BlockGreenBlock();
     	BrownBlock = new BlockBrownBlock();
