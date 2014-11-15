@@ -1,0 +1,18 @@
+[
+{
+  "modid": "pixelartblocks",
+  "name": "pixelartblocks",
+  "description": "Adding many one-colored blocks to Minecraft!",
+  "version": "",
+  "credits": "Created by sebasti161",
+  "logoFile": "",
+  "mcversion": "",
+  "url": "http://iconicnetwork.net",
+  "updateUrl": "",
+  "authorList": ["sebasti161"],
+  "parent":"",
+  "screenshots": [],
+  "dependencies": [
+     "mod_MinecraftForge"
+]
+}
