@@ -1,6 +1,14 @@
-tile.redBlock.name=Red Pixel
-tile.greenBlock.name=Green Pixel
-tile.brownBlock.name=Brown Pixel
-tile.lightBlueBlock.name=Light Blue Pixel
-tile.limeBlock.name=Lime Pixel
-tile.blackBlock.name=Black Pixel
+tile.RedBlock.name=Red Pixel
+tile.GreenBlock.name=Green Pixel
+tile.BrownBlock.name=Brown Pixel
+tile.LightBlueBlock.name=Light Blue Pixel
+tile.BlackBlock.name=Black Pixel
+tile.BlueBlock.name=Blue Pixel
+tile.YellowBlock.name=Yellow Pixel
+tile.WhiteBlock.name=White Pixel
+tile.DarkGreenBlock.name=Dark Green Pixel
+tile.OrangeBlock.name=Orange Pixel
+
+item.RedBlock.name=Red Item
+
+itemGroup.tabPixel=Pixelart blocks
