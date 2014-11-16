@@ -19,7 +19,6 @@ public class Blocks
     	BrownBlock = new BlockBrownBlock();
     	LightBlueBlock = new BlockLightBlueBlock();
     }
-    public static void registerBlocks()
     {
     	//RegisterHelper.RegisterBlock(RedBlock);
     	//RegisterHelper.RegisterBlock(GreenBlock);
