@@ -17,6 +17,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import com.sebasti161.mod.RegisterHelper;
 import com.sebasti161.mod.blocks.ModBlocks;
 import com.sebasti161.mod.items.ModItems;
+import com.sebasti161.mod.recipes.ModRecipes;
 
 @Mod(modid = PixelCore.MODID, version = PixelCore.VERSION)
 public class PixelCore
@@ -30,7 +31,7 @@ public class PixelCore
 
 		ModItems.loadItems();
 
-		//ModRecipes.addRecipes();
+		ModRecipes.addRecipes();
     }
 	public static CreativeTabs tabPixel = new CreativeTabs("tabPixel") {
 	    @Override

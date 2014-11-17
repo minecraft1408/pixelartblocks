@@ -18,6 +18,13 @@ public class ModBlocks
     public static Block whiteBlock;
     public static Block darkGreenBlock;
     public static Block orangeBlock;
+    public static Block darkBlueBlock;
+    public static Block oneBlock;
+    public static Block cyanBlock;
+    public static Block limeBlock;
+    public static Block purpleBlock;
+    public static Block greenBlock2;
+    public static Block pinkBlock;
     
     public static void loadBlocks()
     {	
@@ -31,6 +38,13 @@ public class ModBlocks
     	whiteBlock = new BlockWhiteBlock();
     	darkGreenBlock = new BlockDarkGreenBlock();
     	orangeBlock = new BlockOrangeBlock();
+    	darkBlueBlock = new BlockDarkBlueBlock();
+    	oneBlock = new BlockOneBlock();
+    	cyanBlock = new BlockCyanBlock();
+    	limeBlock = new BlockLimeBlock();
+    	purpleBlock = new BlockPurpleBlock();
+    	greenBlock2 = new BlockGreen2Block();
+    	pinkBlock = new BlockPinkBlock();
     	
     	RegisterHelper.RegisterBlock(redBlock);
     	RegisterHelper.RegisterBlock(greenBlock);
@@ -42,5 +56,12 @@ public class ModBlocks
     	RegisterHelper.RegisterBlock(whiteBlock);
     	RegisterHelper.RegisterBlock(darkGreenBlock);
     	RegisterHelper.RegisterBlock(orangeBlock);
+    	RegisterHelper.RegisterBlock(darkBlueBlock);
+    	RegisterHelper.RegisterBlock(oneBlock);
+    	RegisterHelper.RegisterBlock(cyanBlock);
+    	RegisterHelper.RegisterBlock(limeBlock);
+    	RegisterHelper.RegisterBlock(purpleBlock);
+    	RegisterHelper.RegisterBlock(greenBlock2);
+    	RegisterHelper.RegisterBlock(pinkBlock);
     }
 }
