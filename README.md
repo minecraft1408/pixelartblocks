@@ -1,4 +1,4 @@
 pixelartblocks
 ==============
-Adds new blocks used for pixel art building.
-Adds complete one-color blocks.
+I've chosen to discontinue the mod.
+I don't have time and don't get any feedback on my mod so I am discontinuing my mod.
